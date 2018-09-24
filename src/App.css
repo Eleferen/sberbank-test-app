@@ -1,0 +1,35 @@
+.content {
+  text-align: center;
+}
+
+.logo {
+  height: 80px;
+}
+
+.header {
+  height: 150px;
+  padding: 20px;
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  display: -webkit-flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.table-header {
+  background-color: #FFEEDB;
+  font-weight: bold;
+}
+
+.table-header > div,
+.table-row > div {
+  flex-grow: 1;
+  width: 25%;
+}
+
+.table-row-blackout {
+  opacity: 0.3;
+}
